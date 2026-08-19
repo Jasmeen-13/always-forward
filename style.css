@@ -9,7 +9,7 @@
 /* Main colours */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #111111;
     color: #f4eee5;
     line-height: 1.6;
@@ -33,7 +33,8 @@ nav a {
 nav a:first-child {
     color: #8f2635;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 nav a:not(:first-child) {
@@ -120,11 +121,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #181818;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("assets/images/hero-gym.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #home h1 {
     font-size: 70px;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 
@@ -169,4 +175,45 @@ footer {
     section {
         padding: 60px 20px;
     }
+}
+
+#about {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px 40px;
+}
+
+#about h2 {
+    color: #f4eee5;
+    font-size: 38px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 15px auto;
+    color: #c9c2b8;
+}
+
+#about p:last-child {
+    color: #b88f72;
+    font-weight: 600;
+}
+
+/* Modern cards */
+
+#training div,
+#coaches div,
+#plans div {
+    background-color: #181818;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 30px 20px;
+    transition: 0.3s;
+}
+
+#training div:hover,
+#coaches div:hover,
+#plans div:hover {
+    transform: translateY(-5px);
+    border-color: #8f2635;
 }
