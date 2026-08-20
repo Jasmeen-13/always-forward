@@ -145,6 +145,58 @@ footer {
     margin-top: 15px;
 }
 
+.coach-image {
+    width: 100%;
+    max-width: 900px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Plans section */
+
+#plans {
+    background-color: #141414;
+}
+
+#plans div {
+    min-height: 220px;
+}
+
+#plans h3 {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Final call to action */
+
+#contact {
+    background-color: #8f2635;
+    padding: 90px 30px;
+}
+
+#contact h2 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#contact p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 14px 28px;
+}
+
+#contact a:hover {
+    background-color: #f4eee5;
+    color: #111111;
+}
+
 @media (max-width: 768px) {
 
     nav {
