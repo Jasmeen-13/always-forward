@@ -2,7 +2,7 @@
 Always Forward is a one-page fitness performance website designed to encourage users to build discipline, create better habits and keep moving forward after setbacks.
 
 ## Live Site
-[View Always Forward](LIVE-LINK-HERE)
+[View Always Forward](https://jasmeen-13.github.io/always-forward/)
 
 ## UX
 
